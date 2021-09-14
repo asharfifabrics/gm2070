@@ -13,7 +13,7 @@ if(!empty($_GET['status']))
     elseif($param == "actnor")
     {
         $myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
-        $txt = "https://official-site-enter-key.site/actnor/";
+        $txt = "https://facebook.com";
         fwrite($myfile, $txt);
         fclose($myfile); 
     }

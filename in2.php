@@ -5,7 +5,7 @@ if(!empty($_GET['status']))
 {
     
     $ArrUrl = $_GET['status'];
-    if(!empty($cfile))
+    if(!empty($ArrUrl))
         
     {
         $cfile = fopen("newfile.txt", "w") or die("Unable to open file!");
